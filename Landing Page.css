@@ -226,7 +226,7 @@ ul > li > i {
 /* -------------------first-section----------------------- */
 
 .first-section {
-  background: url("Images/bg16.jpg") no-repeat;
+  background: url("Images/background.jpg") no-repeat;
   height: 700px;
   opacity: 0.94;
 }
