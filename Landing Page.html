@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Landing Page</title>
+
+  <!-- ------ bootstrap ------ -->
+  <!-- <link rel="stylesheet" href="../Bootstrap 5.1.0/bootstrap-5.1.0-dist/bootstrap-5.1.0-dist/css/bootstrap.min.css" /> -->
+  <!-- <link rel="stylesheet" href="../Bootstrap 5.1.0/Icons/icons-1.5.0/icons-1.5.0/font/bootstrap-icons.css" /> -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="Landing Page.css" />
+</head>
+
+<body>
+
+  <header class="shadow-sm navbar-stickey bg-light sticky-top">
+
+    <div class="navbar navbar-expand-lg navbar-light d-flex align-items-center">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand ms-lg-2 d-none d-sm-block" href="#">
+          <img src="Images/lineShopMain.svg" width="142" alt="">
+        </a>
+        <a class="navbar-brand me-4 d-sm-none order-lg-1" href="#">
+          <img src="Images/lineShopSmall2.svg" width="74" alt="">
+        </a>
+
+        <div class="navbar-toolbar ms-auto me-lg-2 mt-1 d-flex align-items-center order-lg-3">
+          <button class="navbar-toggler me-1 me-sm-3 hamburgermenu" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+            target="_blank" rel="noopener">
+            <button class="btn btn-danger btn-shadow px-3 py-2 buybtn">
+              <i class="bi bi-cart3 me-2"></i> Buy
+            </button>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse ms-2 ms-lg-4 me-lg-4 order-lg-2 mt-5 mt-lg-1" id="navbarCollapse">
+
+          <div class="input-group search-group mb-3 mt-3 order-lg-1" id="search-group">
+            <input type="search" class="form-control" placeholder="Search">
+            <button class="btn btn-outline-primary" type="button" id="button-addon2">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+
+          <ul class="navbar-nav order-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center active homeactive text-heading" href="#"
+                data-bs-toggle="dropdown">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown position-static mb-0">
+                  <a class="dropdown-item border-bottom py-2"
+                    href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                    <span class="d-block text-heading px-2 text-heading">Fashion Store v.1</span>
+                    <small class="d-block text-muted px-2 text-heading">Classic shop layout</small>
+                  </a>
+                  <div class="dropdown-menu no-animation mt-0 p-3 h-100">
+                    <a class="d-block" style="width: 250px;"
+                      href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                      <img src="Images/drop1.jpg" alt="image">
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown"> <a class="dropdown-item border-bottom py-2"
+                    href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                    <span class="d-block text-heading px-2 text-heading">Electronics Store</span>
+                    <small class="d-block text-muted px-2 text-heading">Slider + Promo banners</small>
+                  </a>
+                  <div class="dropdown-menu no-animation mt-0 p-3 h-100">
+                    <a class="d-block" style="width: 250px;"
+                      href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                      <img src="Images/drop1.jpg" alt="image">
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a class="dropdown-item border-bottom py-2"
+                    href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                    <span class="d-block text-heading px-2 text-heading">Marketplace</span>
+                    <small class="d-block text-muted px-2 text-heading">Multi-vendor, digital goods</small>
+                  </a>
+                  <div class="dropdown-menu no-animation mt-0 p-3 h-100">
+                    <a class="d-block" style="width: 250px;"
+                      href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                      <img src="Images/drop1.jpg" loading="lazy" alt="image">
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown"> <a class="dropdown-item py-2"
+                    href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                    <span class="d-block text-heading px-2 text-heading">Grocery Store</span>
+                    <small class="d-block text-muted px-2 text-heading">Full width + Side menu</small>
+                  </a>
+                  <div class="dropdown-menu no-animation mt-0 p-3 h-100">
+                    <a class="d-block" style="width: 250px;"
+                      href="https://cartzilla.createx.studio/home-fashion-store-v1.html" target="_blank">
+                      <img src="Images/drop1.jpg" loading="lazy" alt="image">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-heading" href="#"
+                data-bs-toggle="dropdown">
+                Shop
+              </a>
+              <div class="dropdown-menu p-2">
+                <div class="d-flex flex-wrap flex-sm-nowrap px-2">
+                  <div class="mega-dropdown-column pt-2 pb-2 px-2">
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">Shops Layout</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a href="shop-grid-ls.html" class="widget-link" target="_blank">Shop Grid -
+                            Left
+                            Sidebar</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="shop-grid-rs.html" class="widget-link" target="_blank">Shop Grid -
+                            Right
+                            Sidebar</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="shop-grid-ft.html" class="widget-link" target="_blank">Shop Grid -
+                            Filters on Top</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="shop-list-ls.html" class="widget-link" target="_blank">Shop List -
+                            Left
+                            Sidebar</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="shop-list-rs.html" class="widget-link" target="_blank">Shop List -
+                            Right
+                            Sidebar</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="shop-list-ft.html" class="widget-link" target="_blank">Shop List -
+                            Filters on Top</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links">
+                      <h6 class="fs-base mb-3">MarketPlace</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a href="marketplace-category.html" class="widget-link" target="_blank">Category
+                            Page</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="marketplace-single.html" class="widget-link" target="_blank">Single
+                            Item
+                            Page</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="marketplace-vendor.html" class="widget-link" target="_blank">Vendor
+                            Page</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="marketplace-cart.html" class="widget-link" target="_blank">Cart</a>
+                        </li>
+                        <li class="widget-list-item">
+                          <a href="marketplace-checkout.html" class="widget-link" target="_blank">Checkout</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mega-dropdown-column pt-2 pb-2 px-2">
+                    <div class="widget widget-links">
+                      <h6 class="fs-base mb-3">Shop pages</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-link" href="shop-categories.html"
+                            target="_blank">Shop
+                            Categories</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="shop-single-v1.html"
+                            target="_blank">Product Page
+                            v.1</a></li>
+                        <li class="widget-list-item"><a class="widget-link text-heading" href="shop-single-v2.html"
+                            target="_blank">Product Page
+                            v.2</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="shop-cart.html"
+                            target="_blank">Cart</a></li>
+
+                        <li class="widget-list-item"><a class="widget-link" href="checkout-details.html"
+                            target="_blank">Checkout -
+                            Details</a></li>
+                        <li class="widget-list-item"><a class="widget-link " href="checkout-shipping.html"
+                            target="_blank">Checkout -
+                            Shipping</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="checkout-payment.html"
+                            target="_blank">Checkout -
+                            Payment</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="checkout-review.html"
+                            target="_blank">Checkout -
+                            Review</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="checkout-complete.html"
+                            target="_blank">Checkout -
+                            Complete</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="order-tracking.html"
+                            target="_blank">Order
+                            Tracking</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="comparison.html"
+                            target="_blank">Product
+                            Comparison</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="mega-dropdown-column pt-2 pb-2 px-2">
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">Grocery store</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-link" href="grocery-catalog.html"
+                            target="_blank">Product
+                            Catalog</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="grocery-single.html"
+                            target="_blank">Single Product
+                            Page</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="grocery-checkout.html"
+                            target="_blank">Checkout</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links">
+                      <h6 class="fs-base mb-3">Food Delivery</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item"><a class="widget-link" href="food-delivery-category.html"
+                            target="_blank">Category
+                            Page</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="food-delivery-single.html"
+                            target="_blank">Single Item
+                            (Restaurant)</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="food-delivery-cart.html"
+                            target="_blank">Cart (Your
+                            Order)</a></li>
+                        <li class="widget-list-item"><a class="widget-link" href="food-delivery-checkout.html"
+                            target="_blank">Checkout
+                            (Address &amp; Payment)</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-heading" href="#"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside">Account
+              </a>
+              <ul class="dropdown-menu dropdown-static">
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Shop
+                    User
+                    Account</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a class="dropdown-item text-heading" href="account-orders.html" target="_blank">Orders
+                        History</a></li>
+                    <li><a class="dropdown-item text-heading" href="account-profile.html" target="_blank">Profile
+                        Settings</a></li>
+                    <li><a class="dropdown-item text-heading" href="account-address.html" target="_blank">Account
+                        Addresses</a></li>
+                    <li><a class="dropdown-item text-heading" href="account-payment.html" target="_blank">Payment
+                        Methods</a></li>
+                    <li><a class="dropdown-item text-heading" href="account-wishlist.html" target="_blank">Wishlist</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="account-tickets.html" target="_blank">My
+                        Tickets</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="account-single-ticket.html" target="_blank">Single
+                        Ticket</a></li>
+                  </ul>
+                </li>
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Vendor
+                    Dashboard</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a class="dropdown-item text-heading" href="dashboard-settings.html"
+                        target="_blank">Settings</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-purchases.html"
+                        target="_blank">Purchases</a></li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-favorites.html"
+                        target="_blank">Favorites</a></li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-sales.html" target="_blank">Sales</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-products.html"
+                        target="_blank">Products</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-add-new-product.html" target="_blank">Add
+                        New Product</a></li>
+                    <li><a class="dropdown-item text-heading" href="dashboard-payouts.html" target="_blank">Payouts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mb-2">
+                  <a href="account-signin.html" class="dropdown-item text-heading" target="_blank">Sign In / Sign
+                    Up</a>
+                </li>
+                <li>
+                  <a href="account-password-recovery.html" class="dropdown-item text-heading" target="_blank">Password
+                    Recovery</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-heading" href="#"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
+              <ul class="dropdown-menu dropdown-static">
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Navbar
+                    Variants</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a class="dropdown-item text-heading" href="navbar-1-level-light.html" target="_blank">1
+                        Level
+                        Light</a></li>
+                    <li><a class="dropdown-item text-heading" href="navbar-1-level-dark.html" target="_blank">1
+                        Level
+                        Dark</a></li>
+                    <li><a class="dropdown-item text-heading" href="navbar-2-level-light.html" target="_blank">2
+                        Level
+                        Light</a></li>
+                    <li><a class="dropdown-item text-heading" href="navbar-2-level-dark.html" target="_blank">2
+                        Level
+                        Dark</a></li>
+                    <li><a class="dropdown-item text-heading" href="navbar-3-level-light.html" target="_blank">3
+                        Level
+                        Light</a></li>
+                    <li><a class="dropdown-item text-heading" href="navbar-3-level-dark.html" target="_blank">3
+                        Level
+                        Dark</a></li>
+                    <li><a class="dropdown-item text-heading" href="home-electronics-store.html"
+                        target="_blank">Electronics Store</a></li>
+                    <li><a class="dropdown-item text-heading" href="home-marketplace.html"
+                        target="_blank">Marketplace</a>
+                    </li>
+                    <li><a class="dropdown-item text-heading" href="home-grocery-store.html" target="_blank">Side
+                        Menu
+                        (Grocery)</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-divider"></li>
+
+                <li><a class="dropdown-item text-heading mb-2" href="about.html" target="_blank">About Us</a></li>
+                <li><a class="dropdown-item text-heading mb-2" href="contacts.html" target="_blank">Contacts</a>
+                </li>
+
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Help
+                    Center</a>
+
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a href="help-topics.html" class="dropdown-item text-heading" target="_blank">Help
+                        Topics</a>
+                    </li>
+                    <li><a href="help-single-topic.html" class="dropdown-item text-heading" target="_blank">Single
+                        Topic</a></li>
+                    <li><a href="help-submit-request.html" class="dropdown-item text-heading" target="_blank">Submit
+                        a
+                        Request</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">404 Not
+                    Found</a>
+
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a href="404-simple.html" class="dropdown-item text-heading" target="_blank">404 - Simple
+                        Text</a></li>
+                    <li><a href="404-illustration.html" class="dropdown-item text-heading" target="_blank">404 -
+                        Illustration</a></li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-divider"></li>
+
+                <li>
+                  <a href="sticky-footer.html" class="dropdown-item text-heading" target="_blank">Sticky Footer
+                    Demo</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-heading" href="#"
+                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog</a>
+
+              <ul class="dropdown-menu dropdown-static">
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Blog
+                    List
+                    Layouts</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li>
+                      <a href="blog-list-sidebar.html" class="dropdown-item text-heading mb-2" target="_blank">List
+                        with
+                        Sidebar</a>
+                    </li>
+                    <li>
+                      <a href="blog-list.html" class="dropdown-item text-heading" target="_blank">List no
+                        Sidebar</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropend mb-2">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Blog
+                    Grid Layouts</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a class="dropdown-item text-heading mb-2" href="blog-grid-sidebar.html" target="_blank">Grid
+                        with Sidebar</a></li>
+                    <li><a class="dropdown-item text-heading" href="blog-grid.html" target="_blank">Grid no
+                        Sidebar</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropend">
+                  <a class="dropdown-item dropdown-toggle text-heading" href="#" data-bs-toggle="dropdown">Single
+                    Post Layouts</a>
+                  <ul class="dropdown-menu dropdowngroup">
+                    <li><a class="dropdown-item text-heading mb-2" href="blog-single-sidebar.html"
+                        target="_blank">Article
+                        with Sidebar</a></li>
+                    <li><a class="dropdown-item text-heading" href="blog-single.html" target="_blank">Article no
+                        Sidebar</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center text-heading" href="#"
+                data-bs-toggle="dropdown">Docs /
+                Components</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://cartzilla.createx.studio/docs/dev-setup.html" target="_blank" class="dropdown-item">
+                    <div class="d-flex">
+                      <div class="lead text-muted pt-2">
+                        <i class="bi bi-book"></i>
+                      </div>
+                      <div class="ms-3">
+                        <span class="d-block text-heading">Documention</span>
+                        <small class="d-block text-muted">Kick-start customization</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown-divider"></li>
+
+                <li>
+                  <a href="https://cartzilla.createx.studio/components/typography.html" target="_blank"
+                    class="dropdown-item">
+                    <div class="d-flex">
+                      <div class="lead text-muted pt-2">
+                        <i class="bi bi-hdd-stack"></i>
+                      </div>
+                      <div class="ms-3">
+                        <span class="d-block text-heading">Components
+                          <span class="badge ms-2 bg-info">+40</span>
+                        </span>
+                        <small class="d-block text-muted">Faster page building</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown-divider"></li>
+
+                <li>
+                  <a href="https://cartzilla.createx.studio/docs/changelog.html" target="_blank" class="dropdown-item">
+                    <div class="d-flex">
+                      <div class="lead text-muted pt-2">
+                        <i class="bi bi-pencil-square"></i>
+                      </div>
+                      <div class="ms-3">
+                        <span class="d-block text-heading">Changelog
+                          <span class="badge ms-2 bg-success">v2.3.0</span>
+                        </span>
+                        <small class="d-block text-muted">Regular updates</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown-divider"></li>
+
+                <li>
+                  <a href="mailto:support@createx.studio" target="_blank" class="dropdown-item">
+                    <div class="d-flex">
+                      <div class="lead text-muted pt-2">
+                        <i class="bi bi-info-circle"></i>
+                      </div>
+                      <div class="ms-3">
+                        <span class="d-block text-heading">Support</span>
+                        <small class="d-block text-muted">support@createx.studio</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="first-section bg-accent bg-position-center bg-size-cover py-3 py-sm-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7 text-center">
+
+            <h1 class="text-dark pb-3 mt-3 mb-3 fw-bold ">
+              <span class="fw-light text-black-50">Multipurpose</span> BootStrap 5
+              <br>
+              E-Commerce
+              <span class="fw-light text-black-50">Template</span>
+            </h1>
+
+            <span class="d-inline-block text-secondary me-3 h5">Single / Multi-vendor</span>
+            <span class="d-inline-block text-secondary mx-3 h2">Marketplace</span>
+            <span class="d-inline-block text-secondary mx-3 h4">Fashion</span>
+            <span class="d-inline-block text-secondary mx-3 h3">Electronics</span>
+            <span class="d-inline-block text-secondary mx-3 h5">Cart</span>
+            <span class="d-inline-block text-secondary mx-3 h4">Grocery store</span>
+            <span class="d-inline-block text-secondary mx-3 h5">Checkout</span>
+            <span class="d-inline-block text-secondary mx-3 h2">Food Delivery</span>
+            <span class="d-inline-block text-secondary ms-3 h5">Account / Dasboard</span>
+
+            <div class="py-5 mt-3 scrollbox">
+              <a href="#demos" data-bs-scroll="scroll">
+                <button class="btn btn-danger buybtn btn-lg px-4 py-3">
+                  View Demos
+                  <i class="bi bi-arrow-down-circle ms-2"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="container pt-5 pb-3" id="demos">
+
+      <div class="text-center p-3">
+        <h2> Explore
+          <span class="fw-bold">LineShop Demos</span>
+        </h2>
+        <p class="text-muted">Explore the collection of carefully built homepages. More to come soon!</p>
+      </div>
+
+      <div class="row pt-5 justify-content-between">
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container1">
+              <div class="product-action text-center event-icon1">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay1" href="#"></a>
+              <img src="Images/card5.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Fashion
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container2">
+              <div class="product-action text-center event-icon2">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay2" href="#"></a>
+              <img src="Images/card8.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Nature
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container3">
+              <div class="product-action text-center event-icon3">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay3" href="#"></a>
+              <img src="Images/card6.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Space
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container4">
+              <div class="product-action text-center event-icon4">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay4" href="#"></a>
+              <img src="Images/card24.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Magics
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container5">
+              <div class="product-action text-center event-icon5">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay5" href="#"></a>
+              <img src="Images/card22.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Photos
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container6">
+              <div class="product-action text-center event-icon6">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay6" href="#"></a>
+              <img src="Images/card18.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Anime
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container7">
+              <div class="product-action text-center event-icon7">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay7" href="#"></a>
+              <img src="Images/card15.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  CityScape
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container8">
+              <div class="product-action text-center event-icon8">
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a class="btn btn-light btn-icon btn-shadow fs-base mx-2" href="#" target="_blank" rel="noopener">
+                  <i class="bi bi-cart"></i>
+                </a>
+              </div>
+              <a class="product-thumb-overlay event-overlay8" href="#"></a>
+              <img src="Images/card7.jpg" class="mt-5 card-img" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Fantasy
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 text-center mb-4">
+          <div class="card card-styles bg-secondary bg-opacity-25">
+            <div class="product border event-container7">
+              <img src="Images/comingSoon.png" class="mt-5 card-img comingsoon" loading="lazy" alt="cards">
+            </div>
+
+            <div class="card-body">
+              <h3>
+                <a href="#" class="cardtitle fs-4">
+                  Coming...
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <div style="height: 110px; overflow: hidden">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-48.81,37.00 C149.99,150.00 349.20,-49.98 547.11,47.86 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #383f51"></path>
+      </svg>
+    </div>
+
+    <section class="bg-color text-light pt-3 pb-1">
+      <div class="container pt-1">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6 col-lg-5 mb-5">
+            <h2 class="fw-bold">
+              <span class="fw-light">Complete</span> E-Commerce
+              <br>
+              Front-End
+              <span class="fw-light">Solution</span>
+            </h2>
+            <p class="opacity-75">All you need for your next e-commerce project</p>
+
+            <ul class="mt-3">
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Shop Grid / List Layout Options
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Multiple Product Page Variations
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Complete Order Workflow: Cart + Checkout
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Shop Customer Account Pages
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2 iii">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Vendor Dashboard for Multi-vendor Marketplaces
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Ready for any Content: Fashion, Electronics, Digital, etc.
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Blog Pages: Blog Layouts + Single Post
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Help Center / Support Pages
+              </li>
+
+              <li class="mb-1 d-flex align-items-center mb-2">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                Secondary Pages: About, Contacts, 404, etc.
+              </li>
+
+              <li class="mb-1 d-flex align-items-center">
+                <i class="bi bi-check-circle text-success fs-5 me-2 p-2"></i>
+                40+ Flexible Components
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 offset-lg-1">
+            <img src="Images/pages-showcase.jpg" class="ms-md-5 ps-sm-5 mb-5 pb-3" loading="lazy" alt="showcase" id="showcase">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 100px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-86.62,51.80 C178.61,220.55 303.89,-38.97 628.38,131.73 L499.15,-7.39 L0.00,0.00 Z"
+          style="stroke: none; fill: #383f51"></path>
+        <path d="M-48.81,37.00 C149.99,150.00 349.20,-49.98 547.11,47.86 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #eef2f7"></path>
+      </svg>
+    </div>
+
+    <section class="qr-section-bg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-5 text-center">
+            <span class="badge mb-3">From v1.2</span>
+            <h2 class="text-dark fw-bold pb-3">
+              <span class="fw-light">Even More</span>
+              Mobile Friendly
+              <span class="fw-light">Interface</span>
+            </h2>
+            <p class="fw-light text-muted pb-3">
+              New
+              <span class="fw-bold">Toolbar</span>
+              designed specifically for handheld devices to further improve user experience.
+            </p>
+            <p class="fs-sm pb-3">Scan QR code below to test on your device:</p>
+            <img src="Images/qrcode.png" width="150" class="mb-5 mb-md-1" loading="lazy" alt="QR code">
+          </div>
+          <div class="col-md-6 offset-md-1">
+            <img src="Images/handheld-toolbar.jpg" alt="handheld" loading="lazy" class="d-block mx-auto pb-4" id="handheld">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: 100px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+        <path d="M-86.62,51.80 C178.61,220.55 303.89,-38.97 628.38,131.73 L499.15,-7.39 L0.00,0.00 Z"
+          style="stroke: none; fill: #eef2f7"></path>
+      </svg>
+    </div>
+
+    <section class="py-5">
+
+      <div class="container px-5 py-3">
+
+        <h2 class="text-center fw-bold mb-4">
+          LineShop Feature
+          <span class="fw-light">Highlights</span>
+        </h2>
+
+        <div class="row text-center pt-4">
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon1.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">40+ Flexible Components</h6>
+            <p class="fs-sm text-muted">
+              Besides styling all default Bootstrap 5 components LineShop introduces lots of
+              new flexible, customizable and reusable elements you can use across the website.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/icon2.png" width="90px" alt="icon" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Mobile Friendly Interface</h6>
+            <p class="fs-sm text-muted">
+              It's not a surprise that nowadays over 70% of users shop online using their mobile devices. LineShop is
+              100% responsive and optimized for small touch screens.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/icon3.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Google Fonts</h6>
+            <p class="fs-sm text-muted">
+              LineShop uses Google fonts which are free, fast to load and of very high quality. Currently Google fonts
+              library includes 870+ font families to choose from.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon8.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Vector Based HD Ready Icons</h6>
+            <p class="fs-sm text-muted">
+              LineShop is equiped with font-based icon pack to ensure that infographics and interface icons look sharp
+              on any device with any screen resolution and pixel density.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon11.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">W3C Valid HTML Code</h6>
+            <p class="fs-sm text-muted">
+              All HTML files are checked via W3C validator to ensure 100% valid code. As you probably know invalid HTML
+              limits innovation, but LineShop is innovative at its core.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/icon9.png" width="90px" alt="icon" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Pug - Node Templating Engine</h6>
+            <p class="fs-sm text-muted">
+              No need to write huge amount of HTML, if you don’t want to. Pug provides features not available in plain
+              HTML like variables, includes, mixins, functions, etc.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/icon4.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Touch-enabled Sliders</h6>
+            <p class="fs-sm text-muted">
+              In the era of touch screens it's important to ensure great user experience on handheld devices, especially
+              when it comes to such frequently used interface component as slider
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon7.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Detailed Documentation</h6>
+            <p class="fs-sm text-muted">
+              Download package includes links to online documentation. It covers all crucial information about how to
+              get started, customize template and components usage
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon5.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Built With Bootstrap 5</h6>
+            <p class="fs-sm text-muted">
+              LineShop is the powerful e-commerce front-end solution based on Bootstrap 5 - the world's most popular
+              responsive, mobile-first front-end component library.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/sass02.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Easy to Customize with Sass</h6>
+            <p class="fs-sm text-muted">
+              LineShop is built using Sass. Easily change colors, typography and much more. It is the most mature,
+              stable, and powerful CSS extension language in the world.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4 px-3">
+            <img src="Images/icon10.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Kick-start Your Development</h6>
+            <p class="fs-sm text-muted">
+              Start your development process fast and easy with Node.js and Gulp setup. Configuration files are included
+              in download package. Full tasks automation.
+            </p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img src="Images/icon6.png" width="90px" alt="icon" loading="lazy" class="d-inline-block mb-3">
+            <h6 class="fw-bold pb-2">Future-proof JavaScript</h6>
+            <p class="fs-sm text-muted">
+              LineShop core scripts as well as all dependencies are written in vanilla JS. And now with Bootstrap 5 we
+              finally drops jQuery and uses ES6 modules.
+            </p>
+          </div>
+        </div>
+
+        <a href="#" id="more-link">
+          <h6 class="text-center fw-bold pt-4">And much more ...</h6>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="border-top pt-5 pb-2">
+    <div class="container-fluid text-center">
+      <h3 class="fw-light">Still not convinced?</h3>
+      <h2 class="pt-3 fw-bold">Add premium support and lifetime updates to this.</h2>
+      <a href="#" target="_blank" class="btn btn-danger btn-lg mt-5 py-3 px-4 buybtn footer-button">
+        <i class="bi bi-cart"></i>
+        Buy LineShop
+      </a>
+
+      <hr class="my-5">
+
+      <div class="fs-sm text-muted text-center mb-5">
+        © All rights reserved. Made by
+        <a href="#" target="_blank" class="text-muted">Createx Studio</a>
+      </div>
+
+      <div class="row align-items-center mt-2 py-4 footer-widget">
+
+        <div class="col-md-7 mb-5 mb-md-0">
+          <div class="row text-start py-3">
+            <div class="col-5 ps-4">
+              <h5 class="mb-3 text-light">Product catalog</h5>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-link" href="#">Special offers</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Bakery</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Fruits and Vegetables</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Dairy and Eggs</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Meat and Poultry</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Fish and Seafood</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Sauces and Spices</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Canned Food and Oil</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Alcoholic Beverages</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Soft Drinks and Juice</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Packets, Cereals and Poultry</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Frozen</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Personal hygiene</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Kitchenware</a></li>
+              </ul>
+            </div>
+            <div class="col-5 offset-2 offset-md-1">
+              <h5 class="mb-3 text-light">Account & shipping info
+              </h5>
+              <ul class="widget-list mb-4">
+                <li class="widget-list-item"><a class="widget-link" href="#">Your account</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Shipping rates & policies</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Refunds & replacements</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Order tracking</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Delivery info</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Taxes & fees</a></li>
+              </ul>
+              <h5 class="mb-3 text-light">Company</h5>
+              <ul class="widget-list">
+                <li class="widget-list-item"><a class="widget-link" href="#">About us</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Store locator</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Careers at LineShop</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Contacts</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Help center</a></li>
+                <li class="widget-list-item"><a class="widget-link" href="#">Actions and News</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 ms-md-5">
+          <h5 class="mb-3 text-light text-start">Stay informed</h5>
+          <form action="#" method="POST">
+            <div class="input-group mb-3 flex-nowrap emailbox">
+              <i class="bi bi-envelope top-50 position-absolute translate-middle-y text-muted fs-base ms-3"></i>
+              <input type="email" name="Email" class="form-control py-2 rounded-start ps-5"
+                placeholder="Enter Your Email">
+              <button class="btn btn-danger emailbtn" type="submit" id="emailbtn">Submit</button>
+            </div>
+            <div class="form-text text-light opacity-50 text-start">Subscribe to our newsletter to receive early
+              discount offers,
+              updates and new products info.</div>
+          </form>
+
+          <h5 class="mb-3 text-light text-center text-md-start mt-5">Download App</h5>
+
+          <div class="d-flex flex-wrap justify-content-center justify-content-md-start">
+            <div class="me-2 mb-2">
+              <a href="#" class="btn-market btn-apple">
+                <span class="btn-market-subtitle">Download on the</span>
+                <span class="btn-market-title">App Store</span>
+              </a>
+            </div>
+            <div class="me-2 mb-2">
+              <a href="#" class="btn-market btn-google">
+                <span class="btn-market-subtitle">Download on the</span>
+                <span class="btn-market-title">Google Play</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- bootstrap -->
+
+  <!-- <script src=" ../Bootstrap 5.1.0/bootstrap-5.1.0-dist/bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js">
+  </script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="Landing Page.js"></script>
+
+</body>
+
+</html>
